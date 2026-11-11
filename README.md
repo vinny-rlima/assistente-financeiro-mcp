@@ -4,8 +4,8 @@
 
 Chat em português em que a assistente **Mia** responde sobre contas, saldos e transações de um banco de teste. Projeto do desafio da DIO "Levar o banco para onde o cliente já está", refeito do zero a partir dos slides e do guia do Expert Bruno Lima.
 
-**App publicado:** [preencher com o endereço do Lovable após publicar]
-**Autor(a):** [seu nome]
+**App publicado:** ...
+**Autor(a):** Vinny
 
 ![Saldos separando dinheiro disponível de dívida](docs/evidencias/02-saldos-desktop.png)
 
