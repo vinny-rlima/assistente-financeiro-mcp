@@ -1,0 +1,18 @@
+# Modelo de ~/.codex/config.toml (Windows: %USERPROFILE%\.codex\config.toml)
+# Só espaços reservados. NUNCA versione o arquivo real com as suas chaves.
+
+# 1) Pluggy: documentação, Streamable HTTP, sem chave
+[mcp_servers.pluggy]
+url = "https://mcp.pluggy.ai/mcp"
+
+# 2) Plaid: dados fictícios do Sandbox, STDIO via uvx
+[mcp_servers.plaid]
+# macOS/Linux: resultado de `command -v uvx`, ex.: "/Users/seu-usuario/.local/bin/uvx"
+# Windows:     resultado de `where.exe uvx`,   ex.: "C:/Users/seu-usuario/.local/bin/uvx.exe"
+command = "/CAMINHO/ABSOLUTO/PARA/uvx"
+args = ["mcp-server-plaid"]
+startup_timeout_sec = 60
+
+[mcp_servers.plaid.env]
+PLAID_CLIENT_ID = "COLE_SEU_CLIENT_ID"
+PLAID_SECRET = "COLE_SEU_SANDBOX_SECRET"
