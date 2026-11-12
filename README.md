@@ -4,7 +4,7 @@
 
 Chat em português em que a assistente **Mia** responde sobre contas, saldos e transações de um banco de teste. Projeto do desafio da DIO "Levar o banco para onde o cliente já está", refeito do zero a partir dos slides e do guia do Expert Bruno Lima.
 
-**App publicado:** ...
+**App publicado:** https://pocketwise-finance-companion.lovable.app/
 **Autor(a):** Vinny
 
 ![Saldos separando dinheiro disponível de dívida](docs/evidencias/02-saldos-desktop.png)
